@@ -1,0 +1,26 @@
+{
+  "name": "dazeus-roulette",
+  "version": "0.2.1",
+  "description": "Russian roulette for DaZeus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rnijveld/dazeus-roulette.git"
+  },
+  "keywords": [
+    "dazeus",
+    "irc",
+    "roulette",
+    "russian roulette"
+  ],
+  "author": "Ruben Nijveld <ruben@gewooniets.nl>",
+  "license": "BSD",
+  "dependencies": {
+    "dazeus": "",
+    "request": "",
+    "js-methods": ""
+  }
+}
