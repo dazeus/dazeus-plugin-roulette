@@ -8,17 +8,8 @@ var PULL_CMD = 'pull';
 var ROULETTE_CMD = 'roulette';
 
 // lets parse command line args
-var optimist = dazeus.optimist();
-var argv = optimist
-    .usage("Usage: $0")
-    .describe("help", "Display this help message")
-    .argv;
-
-// show the help
-if (argv.help) {
-    optimist.showHelp();
-    process.exit();
-}
+var argv = dazeus.optimist().argv;
+dazeus.help(argv);
 var options = dazeus.optionsFromArgv(argv);
 
 // this array will store all active games
