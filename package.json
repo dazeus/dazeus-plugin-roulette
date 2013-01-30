@@ -1,6 +1,6 @@
 {
   "name": "dazeus-plugin-roulette",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Russian roulette for DaZeus",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "author": "Ruben Nijveld <ruben@gewooniets.nl>",
   "license": "BSD",
   "dependencies": {
-    "dazeus": "",
+    "dazeus": ">=0.3.1",
     "request": "",
     "js-methods": ""
   }

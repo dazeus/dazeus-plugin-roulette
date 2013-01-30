@@ -19,7 +19,7 @@ if (argv.help) {
     optimist.showHelp();
     process.exit();
 }
-var options = dazeus.options_from_argv(argv);
+var options = dazeus.optionsFromArgv(argv);
 
 // this array will store all active games
 var games = {};
