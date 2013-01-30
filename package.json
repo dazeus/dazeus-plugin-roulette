@@ -1,6 +1,6 @@
 {
-  "name": "dazeus-roulette",
-  "version": "0.1.0",
+  "name": "dazeus-plugin-roulette",
+  "version": "0.2.0",
   "description": "Russian roulette for DaZeus",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rnijveld/dazeus-roulette.git"
+    "url": "git@github.com:dazeus/dazeus-plugin-roulette.git"
   },
   "keywords": [
     "dazeus",
