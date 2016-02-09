@@ -19,7 +19,7 @@
   "author": "Ruben Nijveld <ruben@gewooniets.nl>",
   "license": "BSD",
   "dependencies": {
-    "dazeus": ">=0.3.2",
+    "dazeus": "0.3.*",
     "request": "",
     "js-methods": ""
   }
